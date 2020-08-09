@@ -1,0 +1,2 @@
+tsc script.ts
+deno run --allow-net --allow-read server.ts

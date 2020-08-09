@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Howdy</title>
+</head>
+<body>
+    <style>
+        :root {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+             'Segoe UI', Roboto, 'Helvetica Neue', 
+             Ubuntu, Arial, sans-serif;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .name {
+            font-style: bold;
+        }
+
+        header {
+            justify-content: space-between;
+            display: flex;
+        }
+
+        #text {
+            flex-grow: 1;
+            width: 100%;
+        }
+
+
+
+    </style>
+    <header>
+        <input type="text" id="username" placeholder="Name">
+        <input type="submit" value="Update Name" id="update">
+        <input type="text" id="text" placeholder="Send a message...">
+        <input type="file" accept="image/png, image/jpeg">
+        <input type="submit" value="Send" id="submit">
+    </header>
+    <ul id="messages">
+    </ul>
+    <script src="./script.js"></script>
+</body>
+</html>
